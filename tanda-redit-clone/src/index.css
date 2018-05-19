@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/*
+As the name suggests, the centered-content class will center everything that's inside it.
+*/
+.centered-content {
+  text-align: center;
+}
+
+/*
+This class should be used for all pages because it forces content to be in the same location.
+*/
+.main-content-div {
+  display: inline-block;
+  padding: auto;
+  width: 80%;
+  height: -webkit-stretch;
+}
+
+
+.hoverable-list-item:hover {
+  background-color: orange;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.floating-left-div {
+  display: inline-block;
+  float: left;
+}
+
+.floating-right-div {
+  display: inline-block;
+  float: right;
+}
+
+.center-block {
+  margin: auto;
+}
+
+.small-padding {
+  padding: 10px;
+}
