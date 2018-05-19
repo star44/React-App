@@ -23,7 +23,7 @@ You will also need to put your semantic folder in the src/ directory.
 ## What I made:
 - HotPosts: See all posts in a list
 - ViewPost: See the post + all comments. Comments are in a list of accordions each containing replies which are also in lists of accordions!
-- Error: Generic page containing an error message and a meme off google. It shows up when you try and enter an invalid post ID. For example, http://localhost:3000/post/asdfghjkl
+- Error: Generic page containing an error message and a meme off google (link is included at the top of the file). It shows up when you try and enter an invalid post ID. For example, http://localhost:3000/post/asdfghjkl
 - Voting: A component in the ReusableComponents folder which handles the front end for voting. The back end (i.e. actually calling the API) is not implemented.
 
 <br>
@@ -35,7 +35,3 @@ You will also need to put your semantic folder in the src/ directory.
   - I solved this by limiting the event handler to the div that held the comment/post inside the ListItem
   - In future, I would use: https://developer.mozilla.org/en-US/docs/Web/API/Event/currentTarget
 - Not as many memes as I'd hoped for
-
-<br>
-
-It'd be interesting to hear your feedback. I've used React a few times since the Tanda bootcamp. I seem to be picking it up as I go, but this challenge seems to require of most of my understanding of React.
